@@ -1,0 +1,31 @@
+{
+  "Mode": "<Mode>",
+  "Properties": [
+    {
+      "Key": "extensionAttribute4",
+      "Value": "<extensionAttribute4>"
+    },
+    {
+      "Key": "givenname",
+      "Value": "<givenname>"
+    },
+    {
+      "Key": "sn",
+      "Value": "<sn>"
+    },
+    {
+      "Key": "samaccountname",
+      "Value": "<samaccountname>"
+    },
+    {
+      "Key": "l",
+      "Value": "<l>"
+    },
+    {
+      "Key": "manager",
+      "Value": "<manager>"
+    }
+  ],
+
+  "Comment": "<Comment>"
+}

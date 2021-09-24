@@ -1,0 +1,30 @@
+{
+  "Mode": "validate",
+  "Properties": [
+    {
+      "Key": "extensionAttribute4",
+      "Value": "Dynamics Diplomgrad"
+    },
+    {
+      "Key": "givenname",
+      "Value": "Peter"
+    },
+    {
+      "Key": "sn",
+      "Value": "Taurich"
+    },
+    {
+      "Key": "samaccountname",
+      "Value": "PETA"
+    },
+    {
+      "Key": "l",
+      "Value": "Dynamics Ort"
+    },
+    {
+      "Key": "manager",
+      "Value": "CN=Stefan Rosehr,OU=Users,DC=hpc,DC=local"
+    }
+
+  ]
+}

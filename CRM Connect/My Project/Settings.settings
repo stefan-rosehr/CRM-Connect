@@ -1,0 +1,201 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="frmMain_ActiveUserControlIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="frmMain_WindowState" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="frmMain_Top" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="frmMain_Left" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="frmMain_Width" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="frmMain_Height" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="LastExcelLoadPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="btnAutoExecPressed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PRINSConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=D:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=D:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="CRM_PrinsConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=vy-sql01.har.hpc.local\SQL;Initial Catalog=CRM_Prins;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=vy-sql01.har.hpc.local\SQL;Initial Catalog=CRM_Prins;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;data source=localhost;initial catalog=E:\Pfw\Database\PRINS3DE.FB3;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;data source=localhost;initial catalog=E:\Pfw\Database\PRINS3DE.FB3;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsCentralConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=ISO8859_1;data source=vy-har-db2.hpc.local;initial catalog=d:\Pfw\Datenbank\Aktuell\Prins3Central.fdb;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=ISO8859_1;data source=vy-har-db2.hpc.local;initial catalog=d:\Pfw\Datenbank\Aktuell\Prins3Central.fdb;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="RefirmConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=VY-SOE-SQL1\SQLEXPRESS;Initial Catalog=Refirm;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=VY-SOE-SQL1\SQLEXPRESS;Initial Catalog=Refirm;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="PrinsESConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=ISO8859_1;data source=" db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsES.fb;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=ISO8859_1;data source=" db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsES.fb;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsITConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=ISO8859_1;data source="db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsIT.fb;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=ISO8859_1;data source="db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsIT.fb;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsINTConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=ISO8859_1;data source="db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsINT.fb;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=ISO8859_1;data source="db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsINT.fb;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsFRConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=ISO8859_1;data source="db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsFR.fb;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=ISO8859_1;data source="db2.har.hpc.local";initial catalog=d:\Pfw\Database\Aktuell\PrinsFR.fb;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsATConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=ISO8859_1;data source=VY-HAR-DB1.hpc.local;initial catalog=d:\Pfw\Database\Aktuell\PrinsAT.fb;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=ISO8859_1;data source=VY-HAR-DB1.hpc.local;initial catalog=d:\Pfw\Database\Aktuell\PrinsAT.fb;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="ConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=d:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;server type=0;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=d:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;server type=0;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="HPCReweSKR04ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=vy-sql01.har.hpc.local\SAGE;Initial Catalog=HPCReweSKR04;Persist Security Info=True;User ID=sa;Password=Pappnase2o13&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=vy-sql01.har.hpc.local\SAGE;Initial Catalog=HPCReweSKR04;Persist Security Info=True;User ID=sa;Password=Pappnase2o13</Value>
+    </Setting>
+    <Setting Name="ARMAuthData" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/Session/login?username=PRINS-CONNECTOR&amp;domain=hpc.local&amp;password=%C2%A7nt2rf!ce.., </Value>
+    </Setting>
+    <Setting Name="ARMBaseAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://vy-har-8man-srv.eu.hpc.local</Value>
+    </Setting>
+    <Setting Name="ConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;initial catalog=C:\Pfw\Database\PRINS3DE.FB3;data source=PC-STR10A;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;initial catalog=C:\Pfw\Database\PRINS3DE.FB3;data source=PC-STR10A;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsReConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=D:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=D:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="PrinsDEConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=D:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;data source=vy-har-db2.hpc.local;initial catalog=D:\Pfw\Datenbank\Aktuell\PrinsDE.FB3;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="ProjectScript" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-executionPolicy bypass -file C:\Install\Scripts\HPC-Projects\HPCAG\HPCProject_fromPrins.ps1 -Servername ":HOMESERVER" -ProjectNumber ":PRJ_NUMMER" -Projectname ":PRJ_NAME1" -Members ":Members" -Year ":Year"</Value>
+    </Setting>
+    <Setting Name="ESTGroupScript" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-executionPolicy bypass -file "C:\Install\Scripts\HPC-Projects\HPCAG\HPCESTgroup_fromPrins.ps1" -Groupname ":Groupname" -Members ":Members"</Value>
+    </Setting>
+    <Setting Name="PrjFolderAutoStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="fgMessagesCounter" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="AzureBusServiceAutoStart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AppMailbox" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppMailFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppMailSession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ADUserExistsTemplateName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SQLDataLakeConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=tcp:hpcsqlserversdatalake.database.windows.net,1433;Initial Catalog=SQLDataLake;Persist Security Info=True;User ID=admhpcsql;Password=ZrB:4RyxLGlk&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=tcp:hpcsqlserversdatalake.database.windows.net,1433;Initial Catalog=SQLDataLake;Persist Security Info=True;User ID=admhpcsql;Password=ZrB:4RyxLGlk</Value>
+    </Setting>
+    <Setting Name="ConnectionString3" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;character set=UNICODE_FSS;data source=localhost;initial catalog=E:\Pfw\Database\PRINS3DE.FB3;user id=SYSDBA;password=masterkey&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">character set=UNICODE_FSS;data source=localhost;initial catalog=E:\Pfw\Database\PRINS3DE.FB3;user id=SYSDBA;password=masterkey</Value>
+    </Setting>
+    <Setting Name="Archiv1ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=vy-har-sql2.eu.hpc.local\ELO;Initial Catalog=Archiv1;Persist Security Info=True;User ID=elodb;Password=uE9t8zaJvr&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=vy-har-sql2.eu.hpc.local\ELO;Initial Catalog=Archiv1;Persist Security Info=True;User ID=elodb;Password=uE9t8zaJvr</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

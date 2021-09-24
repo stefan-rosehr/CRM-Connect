@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGenerator" targetNamespace="http://tempuri.org/dsGenerator.xsd" xmlns:mstns="http://tempuri.org/dsGenerator.xsd" xmlns="http://tempuri.org/dsGenerator.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CRM_Connect.My.MySettings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="PrinsCentralConnection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PrinsCentralConnection (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CRM_Connect.My.MySettings.GlobalReference.Default.PrinsCentralConnection" Provider="FirebirdSql.Data.FirebirdClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GENERATOR_IDTableAdapter" GeneratorDataComponentClassName="GENERATOR_IDTableAdapter" Name="GENERATOR_ID" UserDataComponentName="GENERATOR_IDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PrinsCentralConnection (MySettings)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAX(RDB$RELATION_ID) AS ID, GEN_ID( GEN_ADRESSEN_ID, 1) AS NEW_ID FROM RDB$DATABASE </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGenerator" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGenerator" msprop:Generator_UserDSName="dsGenerator">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GENERATOR_ID" msprop:Generator_TableClassName="GENERATOR_IDDataTable" msprop:Generator_TableVarName="tableGENERATOR_ID" msprop:Generator_TablePropName="GENERATOR_ID" msprop:Generator_RowDeletingName="GENERATOR_IDRowDeleting" msprop:Generator_RowChangingName="GENERATOR_IDRowChanging" msprop:Generator_RowEvHandlerName="GENERATOR_IDRowChangeEventHandler" msprop:Generator_RowDeletedName="GENERATOR_IDRowDeleted" msprop:Generator_UserTableName="GENERATOR_ID" msprop:Generator_RowChangedName="GENERATOR_IDRowChanged" msprop:Generator_RowEvArgName="GENERATOR_IDRowChangeEvent" msprop:Generator_RowClassName="GENERATOR_IDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RDB_ID" msprop:Generator_ColumnVarNameInTable="columnRDB_ID" msprop:Generator_ColumnPropNameInRow="RDB_ID" msprop:Generator_ColumnPropNameInTable="RDB_IDColumn" msprop:Generator_UserColumnName="RDB_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="NEW_ID" msprop:Generator_ColumnVarNameInTable="columnNEW_ID" msprop:Generator_ColumnPropNameInRow="NEW_ID" msprop:Generator_ColumnPropNameInTable="NEW_IDColumn" msprop:Generator_UserColumnName="NEW_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

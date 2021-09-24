@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bsFirma.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DsSQL_CRM_Prins.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1320, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCRMProjekte2Prins.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSourceView.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnTagetView.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnExecAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnAutoExec.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnExcelLoad.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnExcelCheck.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnExcel2Firma.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAF3RFWHRTb2Z0d2FyZQBQYWludC5ORVQg
+        djMuMM0vV0YAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hGYKxG6WBogkMZKgPNCEVJ
+        FBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd90OGSnwCahxbPRNPAPMw9
+        Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fwbf/C0kYAN3Ma/w3gWfZL
+        5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1OcVzOOpHI7Jr376Hi9ogHq
+        FIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9c4jIqFYAjoriBV9AhEPv
+        1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32Ir7UJtZfftyATqeT+8o2
+        D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeComDEo5mNjuweFGvjWg2EB
+        hCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+kx0g8BTA3aZlButjSTyj
+        ODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8DTgDQASA1MVpwzwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="fgProjekt.ColumnInfo" xml:space="preserve">
+    <value>21,1,0,0,0,95,Columns:1{Name:"Id";Caption:"Id";AllowEditing:False;Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	2{Name:"ProjektID";Caption:"ProjektID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"Projektnummer";Caption:"Projektnummer";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"Auftragsvolumen";Caption:"Auftragsvolumen";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	5{Name:"AuftragsvolumenGJ";Caption:"AuftragsvolumenGJ";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	6{Name:"Bezeichnung";Caption:"Bezeichnung";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"Geschaeftsjahr";Caption:"Geschaeftsjahr";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	8{Name:"Kostenstelle";Caption:"Kostenstelle";Style:"DataType:System.String;TextAlign:LeftCenter;";}	9{Name:"FirmenID";Caption:"FirmenID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	10{Name:"Firmennummer";Caption:"Firmennummer";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	11{Name:"Letzteabrechnungsperiode";Caption:"Letzteabrechnungsperiode";Style:"DataType:System.String;TextAlign:LeftCenter;";}	12{Name:"OffeneLeistungen";Caption:"OffeneLeistungen";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	13{Name:"PotRestumsatz";Caption:"PotRestumsatz";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	14{Name:"Projektleiter";Caption:"Projektleiter";Style:"DataType:System.String;TextAlign:LeftCenter;";}	15{Name:"Projektstatus";Caption:"Projektstatus";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	16{Name:"UmsatzGesamt";Caption:"UmsatzGesamt";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	17{Name:"UmsatzGJ";Caption:"UmsatzGJ";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	18{Name:"UmsatzPeriode";Caption:"UmsatzPeriode";Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	19{Name:"Besitzer";Caption:"Besitzer";Style:"DataType:System.String;TextAlign:LeftCenter;";}	20{Name:"Zielsystem";Caption:"Zielsystem";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <metadata name="bsProjekt.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1199, 56</value>
+  </metadata>
+  <data name="fgFirma.ColumnInfo" xml:space="preserve">
+    <value>21,1,0,0,0,95,Columns:1{Name:"Id";Caption:"Id";AllowEditing:False;Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	2{Name:"FirmenID";Caption:"FirmenID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"Firmennummer";Caption:"Firmennummer";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"Firmenname1";Caption:"Firmenname1";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"Firmenname2";Caption:"Firmenname2";Style:"DataType:System.String;TextAlign:LeftCenter;";}	6{Name:"Firmenname3";Caption:"Firmenname3";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"Anschrift";Caption:"Anschrift";Style:"DataType:System.String;TextAlign:LeftCenter;";}	8{Name:"PLZ";Caption:"PLZ";Style:"DataType:System.String;TextAlign:LeftCenter;";}	9{Name:"Ort";Caption:"Ort";Style:"DataType:System.String;TextAlign:LeftCenter;";}	10{Name:"Land";Caption:"Land";Style:"DataType:System.String;TextAlign:LeftCenter;";}	11{Name:"Telefon";Caption:"Telefon";Style:"DataType:System.String;TextAlign:LeftCenter;";}	12{Name:"Fax";Caption:"Fax";Style:"DataType:System.String;TextAlign:LeftCenter;";}	13{Name:"Homepage";Caption:"Homepage";Style:"DataType:System.String;TextAlign:LeftCenter;";}	14{Name:"Sprache";Caption:"Sprache";Style:"DataType:System.String;TextAlign:LeftCenter;";}	15{Name:"EMail";Caption:"EMail";Style:"DataType:System.String;TextAlign:LeftCenter;";}	16{Name:"Zielsystem";Caption:"Zielsystem";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	17{Name:"Besitzer";Caption:"Besitzer";Style:"DataType:System.String;TextAlign:LeftCenter;";}	18{Name:"Kostenstelle";Caption:"Kostenstelle";Style:"DataType:System.String;TextAlign:LeftCenter;";}	19{Name:"KuerzelKontakt";Caption:"KuerzelKontakt";Style:"DataType:System.String;TextAlign:LeftCenter;";}	20{Name:"StateCode";Caption:"StateCode";Style:"DataType:System.Boolean;TextAlign:LeftCenter;ImageAlign:CenterCenter;";}	</value>
+  </data>
+  <data name="fgAdressen.ColumnInfo" xml:space="preserve">
+    <value>19,1,0,0,0,95,Columns:1{Name:"ID";Caption:"ID";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	2{Name:"FIRMENID";Caption:"FIRMENID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	3{Name:"FIRMENNAME1";Caption:"FIRMENNAME1";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"FIRMENNAME2";Caption:"FIRMENNAME2";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"FIRMENNAME3";Caption:"FIRMENNAME3";Style:"DataType:System.String;TextAlign:LeftCenter;";}	6{Name:"ANSCHRIFT";Caption:"ANSCHRIFT";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"PLZ";Caption:"PLZ";Style:"DataType:System.String;TextAlign:LeftCenter;";}	8{Name:"ORT";Caption:"ORT";Style:"DataType:System.String;TextAlign:LeftCenter;";}	9{Name:"TELEFON";Caption:"TELEFON";Style:"DataType:System.String;TextAlign:LeftCenter;";}	10{Name:"FAX";Caption:"FAX";Style:"DataType:System.String;TextAlign:LeftCenter;";}	11{Name:"HOMEPAGE";Caption:"HOMEPAGE";Style:"DataType:System.String;TextAlign:LeftCenter;";}	12{Name:"SPRACHE";Caption:"SPRACHE";AllowEditing:False;Style:"DataType:System.String;TextAlign:LeftCenter;";}	13{Name:"EMAIL";Caption:"EMAIL";Style:"DataType:System.String;TextAlign:LeftCenter;";}	14{Name:"LAND";Caption:"LAND";Style:"DataType:System.String;TextAlign:LeftCenter;";}	15{Name:"ZIELSYSTEM";Caption:"ZIELSYSTEM";AllowEditing:False;Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	16{Name:"BESITZER";Caption:"BESITZER";Style:"DataType:System.String;TextAlign:LeftCenter;";}	17{Name:"AKTIV";Caption:"AKTIV";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	18{Name:"ADRESSEN_ID";Caption:"ADRESSEN_ID";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <metadata name="bsVW_ADRESSEN_FIRMA_CRM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>111, 17</value>
+  </metadata>
+  <metadata name="DsPrinsViews.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>547, 17</value>
+  </metadata>
+  <data name="fgProjekte.ColumnInfo" xml:space="preserve">
+    <value>19,1,0,0,0,95,Columns:1{Name:"FIRMENID";Caption:"FIRMENID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	2{Name:"GESCHAEFTSJAHR";Caption:"GESCHAEFTSJAHR";AllowEditing:False;Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	3{Name:"PROJEKTNUMMER";Caption:"PROJEKTNUMMER";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	4{Name:"PROJEKTID";Caption:"PROJEKTID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"BEZEICHNUNG";Caption:"BEZEICHNUNG";Style:"DataType:System.String;TextAlign:LeftCenter;";}	6{Name:"BESITZER";Caption:"BESITZER";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"KOSTENSTELLE";Caption:"KOSTENSTELLE";AllowEditing:False;Style:"DataType:System.String;TextAlign:LeftCenter;";}	8{Name:"PROJEKTSTATUS";Caption:"PROJEKTSTATUS";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	9{Name:"POTRESTUMSATZ";Caption:"POTRESTUMSATZ";AllowEditing:False;Style:"DataType:System.Decimal;TextAlign:GeneralCenter;";}	10{Name:"AUFTRAGSVOLUMEN";Caption:"AUFTRAGSVOLUMEN";Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	11{Name:"AUFTRAGSVOLUMENGJ";Caption:"AUFTRAGSVOLUMENGJ";Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	12{Name:"LETZTEABRECHNUNGSPERIODE";Caption:"LETZTEABRECHNUNGSPERIODE";AllowEditing:False;Style:"DataType:System.String;TextAlign:LeftCenter;";}	13{Name:"UMSATZPERIODE";Caption:"UMSATZPERIODE";AllowEditing:False;Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	14{Name:"OFFENELEISTUNGEN";Caption:"OFFENELEISTUNGEN";Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	15{Name:"UMSATZGESAMT";Caption:"UMSATZGESAMT";AllowEditing:False;Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	16{Name:"FIRMENNUMMER";Caption:"FIRMENNUMMER";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	17{Name:"PROJEKTLEITER";Caption:"PROJEKTLEITER";Style:"DataType:System.String;TextAlign:LeftCenter;";}	18{Name:"UMSATZGJ";Caption:"UMSATZGJ";AllowEditing:False;Style:"DataType:System.Double;TextAlign:GeneralCenter;";}	</value>
+  </data>
+  <metadata name="VWPROJEKTCRMBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>353, 95</value>
+  </metadata>
+  <data name="fgKunden.ColumnInfo" xml:space="preserve">
+    <value>19,1,0,0,0,95,Columns:1{Name:"FIRMENID";Caption:"FIRMENID";Style:"DataType:System.String;TextAlign:LeftCenter;";}	2{Name:"FIRMENNUMMER";Caption:"FIRMENNUMMER";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	3{Name:"FIRMENNAME1";Caption:"FIRMENNAME1";Style:"DataType:System.String;TextAlign:LeftCenter;";}	4{Name:"FIRMENNAME2";Caption:"FIRMENNAME2";Style:"DataType:System.String;TextAlign:LeftCenter;";}	5{Name:"FIRMENNAME3";Caption:"FIRMENNAME3";Style:"DataType:System.String;TextAlign:LeftCenter;";}	6{Name:"ANSCHRIFT";Caption:"ANSCHRIFT";Style:"DataType:System.String;TextAlign:LeftCenter;";}	7{Name:"PLZ";Caption:"PLZ";Style:"DataType:System.String;TextAlign:LeftCenter;";}	8{Name:"ORT";Caption:"ORT";Style:"DataType:System.String;TextAlign:LeftCenter;";}	9{Name:"TELEFON";Caption:"TELEFON";Style:"DataType:System.String;TextAlign:LeftCenter;";}	10{Name:"FAX";Caption:"FAX";Style:"DataType:System.String;TextAlign:LeftCenter;";}	11{Name:"HOMEPAGE";Caption:"HOMEPAGE";Style:"DataType:System.String;TextAlign:LeftCenter;";}	12{Name:"SPRACHE";Caption:"SPRACHE";Style:"DataType:System.String;TextAlign:LeftCenter;";}	13{Name:"EMAIL";Caption:"EMAIL";Style:"DataType:System.String;TextAlign:LeftCenter;";}	14{Name:"LAND";Caption:"LAND";Style:"DataType:System.String;TextAlign:LeftCenter;";}	15{Name:"ZIELSYSTEM";Caption:"ZIELSYSTEM";AllowEditing:False;Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	16{Name:"BESITZER";Caption:"BESITZER";AllowEditing:False;Style:"DataType:System.String;TextAlign:LeftCenter;";}	17{Name:"KOSTENSTELLE";Caption:"KOSTENSTELLE";Style:"DataType:System.Int32;TextAlign:GeneralCenter;";}	18{Name:"KUERZELKONTAKT";Caption:"KUERZELKONTAKT";Style:"DataType:System.String;TextAlign:LeftCenter;";}	</value>
+  </data>
+  <metadata name="bsVW_KUNDEN_TO_CRM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>670, 17</value>
+  </metadata>
+  <metadata name="tmAutoExec.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="DsPrinsTables.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>109, 56</value>
+  </metadata>
+  <metadata name="taAdressen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 56</value>
+  </metadata>
+  <metadata name="taKreditor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>348, 56</value>
+  </metadata>
+  <metadata name="taKunden.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>454, 56</value>
+  </metadata>
+  <metadata name="taZUORDNUNG_ADRESSE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>558, 56</value>
+  </metadata>
+  <metadata name="taLAENDER.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>919, 56</value>
+  </metadata>
+  <metadata name="taPRC_AN_PRJ_ANLAGE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>577, 95</value>
+  </metadata>
+  <metadata name="taPERSONAL.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>758, 95</value>
+  </metadata>
+  <metadata name="taFirma.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="taProjekt.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1301, 56</value>
+  </metadata>
+  <metadata name="DsSQLCRMPrinsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>134, 95</value>
+  </metadata>
+  <metadata name="bsVW_PROJEKT_CRM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>751, 56</value>
+  </metadata>
+  <metadata name="taVW_KUNDEN_TO_CRM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>959, 17</value>
+  </metadata>
+  <metadata name="TableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1147, 17</value>
+  </metadata>
+  <metadata name="taVW_ADRESSEN_FIRMA_CRM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>330, 17</value>
+  </metadata>
+  <metadata name="taVW_PROJEKT_CRM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1033, 56</value>
+  </metadata>
+  <metadata name="DsPrins1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>860, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>169</value>
+  </metadata>
+</root>

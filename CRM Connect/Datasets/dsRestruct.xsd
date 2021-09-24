@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRestruct" targetNamespace="http://tempuri.org/dsRestruct.xsd" xmlns:mstns="http://tempuri.org/dsRestruct.xsd" xmlns="http://tempuri.org/dsRestruct.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="3" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="RefirmConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RefirmConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CRM_Connect.My.MySettings.GlobalReference.Default.RefirmConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="RefirmConnectionString1" IsAppSettingsProperty="true" Modifier="Assembly" Name="RefirmConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CRM_Connect.My.MySettings.GlobalReference.Default.RefirmConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="PrinsReConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PrinsReConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CRM_Connect.My.MySettings.GlobalReference.Default.PrinsReConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CRM_Connect.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="FirebirdSql.Data.FirebirdClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vProjekt_KundeTableAdapter" GeneratorDataComponentClassName="vProjekt_KundeTableAdapter" Name="vProjekt_Kunde" UserDataComponentName="vProjekt_KundeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PrinsReConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cNr, cBeschreibung, cVorname, cName, cInitialien, cNrSub, cBeschreibungSub, cKNr, cFirma, cStr, cPLZ, cOrt, cTel, cEmail, Status_ID
+FROM            vProjekt_Kunde</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cNr" DataSetColumn="cNr" />
+              <Mapping SourceColumn="cBeschreibung" DataSetColumn="cBeschreibung" />
+              <Mapping SourceColumn="cVorname" DataSetColumn="cVorname" />
+              <Mapping SourceColumn="cName" DataSetColumn="cName" />
+              <Mapping SourceColumn="cInitialien" DataSetColumn="cInitialien" />
+              <Mapping SourceColumn="cNrSub" DataSetColumn="cNrSub" />
+              <Mapping SourceColumn="cBeschreibungSub" DataSetColumn="cBeschreibungSub" />
+              <Mapping SourceColumn="cKNr" DataSetColumn="cKNr" />
+              <Mapping SourceColumn="cFirma" DataSetColumn="cFirma" />
+              <Mapping SourceColumn="cStr" DataSetColumn="cStr" />
+              <Mapping SourceColumn="cPLZ" DataSetColumn="cPLZ" />
+              <Mapping SourceColumn="cOrt" DataSetColumn="cOrt" />
+              <Mapping SourceColumn="cTel" DataSetColumn="cTel" />
+              <Mapping SourceColumn="cEmail" DataSetColumn="cEmail" />
+              <Mapping SourceColumn="Status_ID" DataSetColumn="Status_ID" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="PrinsReConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByCNr" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByCNr" GeneratorSourceName="FillByCNr" GetMethodModifier="Public" GetMethodName="GetDataByCNr" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByCNr" UserSourceName="FillByCNr">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cNr, cBeschreibung, cVorname, cName, cInitialien, cNrSub, cBeschreibungSub, cKNr, cFirma, cStr, cPLZ, cOrt, cTel, cEmail, Status_ID
+FROM            vProjekt_Kunde
+WHERE        (cNr = @CNr)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CNr" ColumnName="cNr" DataSourceName="Refirm.dbo.vProjekt_Kunde" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@CNr" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="cNr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="PrinsReConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByStatus" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByStatus" GeneratorSourceName="FillByStatus" GetMethodModifier="Public" GetMethodName="GetDataByStatus" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByStatus" UserSourceName="FillByStatus">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cNr, cBeschreibung, cVorname, cName, cInitialien, cNrSub, cBeschreibungSub, cKNr, cFirma, cStr, cPLZ, cOrt, cTel, cEmail, Status_ID
+FROM            vProjekt_Kunde
+WHERE        (Status_ID = @Status)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Status" ColumnName="Status_ID" DataSourceName="Refirm.dbo.vProjekt_Kunde" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@Status" Precision="0" ProviderType="BigInt" Scale="0" Size="8" SourceColumn="Status_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VWOCHENBERICHTTableAdapter" GeneratorDataComponentClassName="VWOCHENBERICHTTableAdapter" Name="VWOCHENBERICHT" UserDataComponentName="VWOCHENBERICHTTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectName="VWOCHENBERICHT" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "ID", "ISTATUS", "DDATUM", "FDAUER", "BENUTZER_ID", "PROJEKT_ID", "HKAT_ID", "BABRECHNEN", "BAKTIV", "FEHLZEITTYP_ID", "IBERECHNUNGSTYP", "DLASTUPDATE", "LASTUPDATE_BENUTZER_ID", "TBL_HOMEOFFICE_GRUND_ID", "CNAME", "CEMAIL", "CVORNAME", "CINITIALEN", "PROJEKTLEITER_ID", "CBESCHREIBUNG", "SACHBEARBEITER_ID", "BOHNEBERECHNUNG", "CTYP", "CBEZEICHNUNG", "CTEXT", "CNR", "EXPR1", "ADRESSE_ID", "CFIRMA", "CFIRMIERUNG", "CZUSATZ", "CANREDE", "CTITEL", "CTEL", "CSTR", "CPLZ", "CORT", "CBLAND", "CLAND", "CFIRMA2" FROM "VWOCHENBERICHT"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="ISTATUS" DataSetColumn="ISTATUS" />
+              <Mapping SourceColumn="DDATUM" DataSetColumn="DDATUM" />
+              <Mapping SourceColumn="FDAUER" DataSetColumn="FDAUER" />
+              <Mapping SourceColumn="BENUTZER_ID" DataSetColumn="BENUTZER_ID" />
+              <Mapping SourceColumn="PROJEKT_ID" DataSetColumn="PROJEKT_ID" />
+              <Mapping SourceColumn="HKAT_ID" DataSetColumn="HKAT_ID" />
+              <Mapping SourceColumn="BABRECHNEN" DataSetColumn="BABRECHNEN" />
+              <Mapping SourceColumn="BAKTIV" DataSetColumn="BAKTIV" />
+              <Mapping SourceColumn="FEHLZEITTYP_ID" DataSetColumn="FEHLZEITTYP_ID" />
+              <Mapping SourceColumn="IBERECHNUNGSTYP" DataSetColumn="IBERECHNUNGSTYP" />
+              <Mapping SourceColumn="DLASTUPDATE" DataSetColumn="DLASTUPDATE" />
+              <Mapping SourceColumn="LASTUPDATE_BENUTZER_ID" DataSetColumn="LASTUPDATE_BENUTZER_ID" />
+              <Mapping SourceColumn="TBL_HOMEOFFICE_GRUND_ID" DataSetColumn="TBL_HOMEOFFICE_GRUND_ID" />
+              <Mapping SourceColumn="CNAME" DataSetColumn="CNAME" />
+              <Mapping SourceColumn="CEMAIL" DataSetColumn="CEMAIL" />
+              <Mapping SourceColumn="CVORNAME" DataSetColumn="CVORNAME" />
+              <Mapping SourceColumn="CINITIALEN" DataSetColumn="CINITIALEN" />
+              <Mapping SourceColumn="PROJEKTLEITER_ID" DataSetColumn="PROJEKTLEITER_ID" />
+              <Mapping SourceColumn="CBESCHREIBUNG" DataSetColumn="CBESCHREIBUNG" />
+              <Mapping SourceColumn="SACHBEARBEITER_ID" DataSetColumn="SACHBEARBEITER_ID" />
+              <Mapping SourceColumn="BOHNEBERECHNUNG" DataSetColumn="BOHNEBERECHNUNG" />
+              <Mapping SourceColumn="CTYP" DataSetColumn="CTYP" />
+              <Mapping SourceColumn="CBEZEICHNUNG" DataSetColumn="CBEZEICHNUNG" />
+              <Mapping SourceColumn="CTEXT" DataSetColumn="CTEXT" />
+              <Mapping SourceColumn="CNR" DataSetColumn="CNR" />
+              <Mapping SourceColumn="EXPR1" DataSetColumn="EXPR1" />
+              <Mapping SourceColumn="ADRESSE_ID" DataSetColumn="ADRESSE_ID" />
+              <Mapping SourceColumn="CFIRMA" DataSetColumn="CFIRMA" />
+              <Mapping SourceColumn="CFIRMIERUNG" DataSetColumn="CFIRMIERUNG" />
+              <Mapping SourceColumn="CZUSATZ" DataSetColumn="CZUSATZ" />
+              <Mapping SourceColumn="CANREDE" DataSetColumn="CANREDE" />
+              <Mapping SourceColumn="CTITEL" DataSetColumn="CTITEL" />
+              <Mapping SourceColumn="CTEL" DataSetColumn="CTEL" />
+              <Mapping SourceColumn="CSTR" DataSetColumn="CSTR" />
+              <Mapping SourceColumn="CPLZ" DataSetColumn="CPLZ" />
+              <Mapping SourceColumn="CORT" DataSetColumn="CORT" />
+              <Mapping SourceColumn="CBLAND" DataSetColumn="CBLAND" />
+              <Mapping SourceColumn="CLAND" DataSetColumn="CLAND" />
+              <Mapping SourceColumn="CFIRMA2" DataSetColumn="CFIRMA2" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectName="VWOCHENBERICHT" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByDatum" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByDatum" GeneratorSourceName="FillByDatum" GetMethodModifier="Public" GetMethodName="GetDataByDatum" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByDatum" UserSourceName="FillByDatum">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ID, ISTATUS, DDATUM, FDAUER, BENUTZER_ID, PROJEKT_ID, HKAT_ID, BABRECHNEN, BAKTIV, FEHLZEITTYP_ID, IBERECHNUNGSTYP, DLASTUPDATE, LASTUPDATE_BENUTZER_ID, TBL_HOMEOFFICE_GRUND_ID, CNAME, 
+                         CEMAIL, CVORNAME, CINITIALEN, PROJEKTLEITER_ID, CBESCHREIBUNG, SACHBEARBEITER_ID, BOHNEBERECHNUNG, CTYP, CBEZEICHNUNG, CTEXT, CNR, EXPR1, ADRESSE_ID, CFIRMA, CFIRMIERUNG, CZUSATZ, 
+                         CANREDE, CTITEL, CTEL, CSTR, CPLZ, CORT, CBLAND, CLAND, CFIRMA2
+FROM            VWOCHENBERICHT
+WHERE        (DDATUM &gt;= @VonDatum AND DDATUM &lt;= @BisDatum)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="VonDatum" ColumnName="DDATUM" DataSourceName="VWOCHENBERICHT" DataTypeServer="DbType.DateTime(4)" DbType="DateTime" Direction="Input" ParameterName="@VonDatum" Precision="0" Scale="0" Size="4" SourceColumn="DDATUM" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="BisDatum" ColumnName="DDATUM" DataSourceName="VWOCHENBERICHT" DataTypeServer="DbType.DateTime(4)" DbType="DateTime" Direction="Input" ParameterName="@BisDatum" Precision="0" Scale="0" Size="4" SourceColumn="DDATUM" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="ConnectionString1 (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByDatumPrj" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByDatumPrj" GeneratorSourceName="FillByDatumPrj" GetMethodModifier="Public" GetMethodName="GetDataByDatumPrj" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByDatumPrj" UserSourceName="FillByDatumPrj">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ID, ISTATUS, DDATUM, FDAUER, BENUTZER_ID, PROJEKT_ID, HKAT_ID, BABRECHNEN, BAKTIV, FEHLZEITTYP_ID, IBERECHNUNGSTYP, DLASTUPDATE, LASTUPDATE_BENUTZER_ID, TBL_HOMEOFFICE_GRUND_ID, CNAME, 
+                         CEMAIL, CVORNAME, CINITIALEN, PROJEKTLEITER_ID, CBESCHREIBUNG, SACHBEARBEITER_ID, BOHNEBERECHNUNG, CTYP, CBEZEICHNUNG, CTEXT, CNR, EXPR1, ADRESSE_ID, CFIRMA, CFIRMIERUNG, CZUSATZ, 
+                         CANREDE, CTITEL, CTEL, CSTR, CPLZ, CORT, CBLAND, CLAND, CFIRMA2
+FROM            VWOCHENBERICHT
+WHERE        (DDATUM &gt;= @VonDatum AND DDATUM &lt;= @BisDatum) AND (CNR like @CNr)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="VonDatum" ColumnName="DDATUM" DataSourceName="" DataTypeServer="unknown" DbType="Date" Direction="Input" ParameterName="@VonDatum" Precision="0" Scale="0" Size="1024" SourceColumn="DDATUM" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="BisDatum" ColumnName="DDATUM" DataSourceName="" DataTypeServer="unknown" DbType="Date" Direction="Input" ParameterName="@BisDatum" Precision="0" Scale="0" Size="1024" SourceColumn="DDATUM" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="CNr" ColumnName="CNR" DataSourceName="" DataTypeServer="unknown" DbType="String" Direction="Input" ParameterName="@CNr" Precision="0" Scale="0" Size="1024" SourceColumn="CNR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRestruct" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRestruct" msprop:Generator_UserDSName="dsRestruct">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vProjekt_Kunde" msprop:Generator_TableClassName="vProjekt_KundeDataTable" msprop:Generator_TableVarName="tablevProjekt_Kunde" msprop:Generator_TablePropName="vProjekt_Kunde" msprop:Generator_RowDeletingName="vProjekt_KundeRowDeleting" msprop:Generator_RowChangingName="vProjekt_KundeRowChanging" msprop:Generator_RowEvHandlerName="vProjekt_KundeRowChangeEventHandler" msprop:Generator_RowDeletedName="vProjekt_KundeRowDeleted" msprop:Generator_UserTableName="vProjekt_Kunde" msprop:Generator_RowChangedName="vProjekt_KundeRowChanged" msprop:Generator_RowEvArgName="vProjekt_KundeRowChangeEvent" msprop:Generator_RowClassName="vProjekt_KundeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cNr" msprop:Generator_ColumnVarNameInTable="columncNr" msprop:Generator_ColumnPropNameInRow="cNr" msprop:Generator_ColumnPropNameInTable="cNrColumn" msprop:Generator_UserColumnName="cNr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cBeschreibung" msprop:Generator_ColumnVarNameInTable="columncBeschreibung" msprop:Generator_ColumnPropNameInRow="cBeschreibung" msprop:Generator_ColumnPropNameInTable="cBeschreibungColumn" msprop:Generator_UserColumnName="cBeschreibung" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cVorname" msprop:Generator_ColumnVarNameInTable="columncVorname" msprop:Generator_ColumnPropNameInRow="cVorname" msprop:Generator_ColumnPropNameInTable="cVornameColumn" msprop:Generator_UserColumnName="cVorname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cName" msprop:Generator_ColumnVarNameInTable="columncName" msprop:Generator_ColumnPropNameInRow="cName" msprop:Generator_ColumnPropNameInTable="cNameColumn" msprop:Generator_UserColumnName="cName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cInitialien" msprop:Generator_ColumnVarNameInTable="columncInitialien" msprop:Generator_ColumnPropNameInRow="cInitialien" msprop:Generator_ColumnPropNameInTable="cInitialienColumn" msprop:Generator_UserColumnName="cInitialien" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cNrSub" msprop:Generator_ColumnVarNameInTable="columncNrSub" msprop:Generator_ColumnPropNameInRow="cNrSub" msprop:Generator_ColumnPropNameInTable="cNrSubColumn" msprop:Generator_UserColumnName="cNrSub" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cBeschreibungSub" msprop:Generator_ColumnVarNameInTable="columncBeschreibungSub" msprop:Generator_ColumnPropNameInRow="cBeschreibungSub" msprop:Generator_ColumnPropNameInTable="cBeschreibungSubColumn" msprop:Generator_UserColumnName="cBeschreibungSub" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cKNr" msprop:Generator_ColumnVarNameInTable="columncKNr" msprop:Generator_ColumnPropNameInRow="cKNr" msprop:Generator_ColumnPropNameInTable="cKNrColumn" msprop:Generator_UserColumnName="cKNr">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cFirma" msprop:Generator_ColumnVarNameInTable="columncFirma" msprop:Generator_ColumnPropNameInRow="cFirma" msprop:Generator_ColumnPropNameInTable="cFirmaColumn" msprop:Generator_UserColumnName="cFirma" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cStr" msprop:Generator_ColumnVarNameInTable="columncStr" msprop:Generator_ColumnPropNameInRow="_cStr" msprop:Generator_ColumnPropNameInTable="cStrColumn" msprop:Generator_UserColumnName="cStr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cPLZ" msprop:Generator_ColumnVarNameInTable="columncPLZ" msprop:Generator_ColumnPropNameInRow="cPLZ" msprop:Generator_ColumnPropNameInTable="cPLZColumn" msprop:Generator_UserColumnName="cPLZ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cOrt" msprop:Generator_ColumnVarNameInTable="columncOrt" msprop:Generator_ColumnPropNameInRow="cOrt" msprop:Generator_ColumnPropNameInTable="cOrtColumn" msprop:Generator_UserColumnName="cOrt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cTel" msprop:Generator_ColumnVarNameInTable="columncTel" msprop:Generator_ColumnPropNameInRow="cTel" msprop:Generator_ColumnPropNameInTable="cTelColumn" msprop:Generator_UserColumnName="cTel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cEmail" msprop:Generator_ColumnVarNameInTable="columncEmail" msprop:Generator_ColumnPropNameInRow="cEmail" msprop:Generator_ColumnPropNameInTable="cEmailColumn" msprop:Generator_UserColumnName="cEmail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status_ID" msprop:Generator_ColumnVarNameInTable="columnStatus_ID" msprop:Generator_ColumnPropNameInRow="Status_ID" msprop:Generator_ColumnPropNameInTable="Status_IDColumn" msprop:Generator_UserColumnName="Status_ID" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VWOCHENBERICHT" msprop:Generator_TableClassName="VWOCHENBERICHTDataTable" msprop:Generator_TableVarName="tableVWOCHENBERICHT" msprop:Generator_TablePropName="VWOCHENBERICHT" msprop:Generator_RowDeletingName="VWOCHENBERICHTRowDeleting" msprop:Generator_RowChangingName="VWOCHENBERICHTRowChanging" msprop:Generator_RowEvHandlerName="VWOCHENBERICHTRowChangeEventHandler" msprop:Generator_RowDeletedName="VWOCHENBERICHTRowDeleted" msprop:Generator_UserTableName="VWOCHENBERICHT" msprop:Generator_RowChangedName="VWOCHENBERICHTRowChanged" msprop:Generator_RowEvArgName="VWOCHENBERICHTRowChangeEvent" msprop:Generator_RowClassName="VWOCHENBERICHTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:long" minOccurs="0" />
+              <xs:element name="ISTATUS" msprop:Generator_ColumnVarNameInTable="columnISTATUS" msprop:Generator_ColumnPropNameInRow="ISTATUS" msprop:Generator_ColumnPropNameInTable="ISTATUSColumn" msprop:Generator_UserColumnName="ISTATUS" type="xs:int" minOccurs="0" />
+              <xs:element name="DDATUM" msprop:Generator_ColumnVarNameInTable="columnDDATUM" msprop:Generator_ColumnPropNameInRow="DDATUM" msprop:Generator_ColumnPropNameInTable="DDATUMColumn" msprop:Generator_UserColumnName="DDATUM" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FDAUER" msprop:Generator_ColumnVarNameInTable="columnFDAUER" msprop:Generator_ColumnPropNameInRow="FDAUER" msprop:Generator_ColumnPropNameInTable="FDAUERColumn" msprop:Generator_UserColumnName="FDAUER" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BENUTZER_ID" msprop:Generator_ColumnVarNameInTable="columnBENUTZER_ID" msprop:Generator_ColumnPropNameInRow="BENUTZER_ID" msprop:Generator_ColumnPropNameInTable="BENUTZER_IDColumn" msprop:Generator_UserColumnName="BENUTZER_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="PROJEKT_ID" msprop:Generator_ColumnVarNameInTable="columnPROJEKT_ID" msprop:Generator_ColumnPropNameInRow="PROJEKT_ID" msprop:Generator_ColumnPropNameInTable="PROJEKT_IDColumn" msprop:Generator_UserColumnName="PROJEKT_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="HKAT_ID" msprop:Generator_ColumnVarNameInTable="columnHKAT_ID" msprop:Generator_ColumnPropNameInRow="HKAT_ID" msprop:Generator_ColumnPropNameInTable="HKAT_IDColumn" msprop:Generator_UserColumnName="HKAT_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="BABRECHNEN" msprop:Generator_ColumnVarNameInTable="columnBABRECHNEN" msprop:Generator_ColumnPropNameInRow="BABRECHNEN" msprop:Generator_ColumnPropNameInTable="BABRECHNENColumn" msprop:Generator_UserColumnName="BABRECHNEN" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BAKTIV" msprop:Generator_ColumnVarNameInTable="columnBAKTIV" msprop:Generator_ColumnPropNameInRow="BAKTIV" msprop:Generator_ColumnPropNameInTable="BAKTIVColumn" msprop:Generator_UserColumnName="BAKTIV" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FEHLZEITTYP_ID" msprop:Generator_ColumnVarNameInTable="columnFEHLZEITTYP_ID" msprop:Generator_ColumnPropNameInRow="FEHLZEITTYP_ID" msprop:Generator_ColumnPropNameInTable="FEHLZEITTYP_IDColumn" msprop:Generator_UserColumnName="FEHLZEITTYP_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="IBERECHNUNGSTYP" msprop:Generator_ColumnVarNameInTable="columnIBERECHNUNGSTYP" msprop:Generator_ColumnPropNameInRow="IBERECHNUNGSTYP" msprop:Generator_ColumnPropNameInTable="IBERECHNUNGSTYPColumn" msprop:Generator_UserColumnName="IBERECHNUNGSTYP" type="xs:int" minOccurs="0" />
+              <xs:element name="DLASTUPDATE" msprop:Generator_ColumnVarNameInTable="columnDLASTUPDATE" msprop:Generator_ColumnPropNameInRow="DLASTUPDATE" msprop:Generator_ColumnPropNameInTable="DLASTUPDATEColumn" msprop:Generator_UserColumnName="DLASTUPDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LASTUPDATE_BENUTZER_ID" msprop:Generator_ColumnVarNameInTable="columnLASTUPDATE_BENUTZER_ID" msprop:Generator_ColumnPropNameInRow="LASTUPDATE_BENUTZER_ID" msprop:Generator_ColumnPropNameInTable="LASTUPDATE_BENUTZER_IDColumn" msprop:Generator_UserColumnName="LASTUPDATE_BENUTZER_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="TBL_HOMEOFFICE_GRUND_ID" msprop:Generator_ColumnVarNameInTable="columnTBL_HOMEOFFICE_GRUND_ID" msprop:Generator_ColumnPropNameInRow="TBL_HOMEOFFICE_GRUND_ID" msprop:Generator_ColumnPropNameInTable="TBL_HOMEOFFICE_GRUND_IDColumn" msprop:Generator_UserColumnName="TBL_HOMEOFFICE_GRUND_ID" type="xs:short" minOccurs="0" />
+              <xs:element name="CNAME" msprop:Generator_ColumnVarNameInTable="columnCNAME" msprop:Generator_ColumnPropNameInRow="CNAME" msprop:Generator_ColumnPropNameInTable="CNAMEColumn" msprop:Generator_UserColumnName="CNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CEMAIL" msprop:Generator_ColumnVarNameInTable="columnCEMAIL" msprop:Generator_ColumnPropNameInRow="CEMAIL" msprop:Generator_ColumnPropNameInTable="CEMAILColumn" msprop:Generator_UserColumnName="CEMAIL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CVORNAME" msprop:Generator_ColumnVarNameInTable="columnCVORNAME" msprop:Generator_ColumnPropNameInRow="CVORNAME" msprop:Generator_ColumnPropNameInTable="CVORNAMEColumn" msprop:Generator_UserColumnName="CVORNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CINITIALEN" msprop:Generator_ColumnVarNameInTable="columnCINITIALEN" msprop:Generator_ColumnPropNameInRow="CINITIALEN" msprop:Generator_ColumnPropNameInTable="CINITIALENColumn" msprop:Generator_UserColumnName="CINITIALEN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROJEKTLEITER_ID" msprop:Generator_ColumnVarNameInTable="columnPROJEKTLEITER_ID" msprop:Generator_ColumnPropNameInRow="PROJEKTLEITER_ID" msprop:Generator_ColumnPropNameInTable="PROJEKTLEITER_IDColumn" msprop:Generator_UserColumnName="PROJEKTLEITER_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="CBESCHREIBUNG" msprop:Generator_ColumnVarNameInTable="columnCBESCHREIBUNG" msprop:Generator_ColumnPropNameInRow="CBESCHREIBUNG" msprop:Generator_ColumnPropNameInTable="CBESCHREIBUNGColumn" msprop:Generator_UserColumnName="CBESCHREIBUNG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SACHBEARBEITER_ID" msprop:Generator_ColumnVarNameInTable="columnSACHBEARBEITER_ID" msprop:Generator_ColumnPropNameInRow="SACHBEARBEITER_ID" msprop:Generator_ColumnPropNameInTable="SACHBEARBEITER_IDColumn" msprop:Generator_UserColumnName="SACHBEARBEITER_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="BOHNEBERECHNUNG" msprop:Generator_ColumnVarNameInTable="columnBOHNEBERECHNUNG" msprop:Generator_ColumnPropNameInRow="BOHNEBERECHNUNG" msprop:Generator_ColumnPropNameInTable="BOHNEBERECHNUNGColumn" msprop:Generator_UserColumnName="BOHNEBERECHNUNG" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CTYP" msprop:Generator_ColumnVarNameInTable="columnCTYP" msprop:Generator_ColumnPropNameInRow="CTYP" msprop:Generator_ColumnPropNameInTable="CTYPColumn" msprop:Generator_UserColumnName="CTYP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CBEZEICHNUNG" msprop:Generator_ColumnVarNameInTable="columnCBEZEICHNUNG" msprop:Generator_ColumnPropNameInRow="CBEZEICHNUNG" msprop:Generator_ColumnPropNameInTable="CBEZEICHNUNGColumn" msprop:Generator_UserColumnName="CBEZEICHNUNG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTEXT" msprop:Generator_ColumnVarNameInTable="columnCTEXT" msprop:Generator_ColumnPropNameInRow="CTEXT" msprop:Generator_ColumnPropNameInTable="CTEXTColumn" msprop:Generator_UserColumnName="CTEXT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CNR" msprop:Generator_ColumnVarNameInTable="columnCNR" msprop:Generator_ColumnPropNameInRow="CNR" msprop:Generator_ColumnPropNameInTable="CNRColumn" msprop:Generator_UserColumnName="CNR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EXPR1" msprop:Generator_ColumnVarNameInTable="columnEXPR1" msprop:Generator_ColumnPropNameInRow="EXPR1" msprop:Generator_ColumnPropNameInTable="EXPR1Column" msprop:Generator_UserColumnName="EXPR1" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ADRESSE_ID" msprop:Generator_ColumnVarNameInTable="columnADRESSE_ID" msprop:Generator_ColumnPropNameInRow="ADRESSE_ID" msprop:Generator_ColumnPropNameInTable="ADRESSE_IDColumn" msprop:Generator_UserColumnName="ADRESSE_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="CFIRMA" msprop:Generator_ColumnVarNameInTable="columnCFIRMA" msprop:Generator_ColumnPropNameInRow="CFIRMA" msprop:Generator_ColumnPropNameInTable="CFIRMAColumn" msprop:Generator_UserColumnName="CFIRMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CFIRMIERUNG" msprop:Generator_ColumnVarNameInTable="columnCFIRMIERUNG" msprop:Generator_ColumnPropNameInRow="CFIRMIERUNG" msprop:Generator_ColumnPropNameInTable="CFIRMIERUNGColumn" msprop:Generator_UserColumnName="CFIRMIERUNG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CZUSATZ" msprop:Generator_ColumnVarNameInTable="columnCZUSATZ" msprop:Generator_ColumnPropNameInRow="CZUSATZ" msprop:Generator_ColumnPropNameInTable="CZUSATZColumn" msprop:Generator_UserColumnName="CZUSATZ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANREDE" msprop:Generator_ColumnVarNameInTable="columnCANREDE" msprop:Generator_ColumnPropNameInRow="CANREDE" msprop:Generator_ColumnPropNameInTable="CANREDEColumn" msprop:Generator_UserColumnName="CANREDE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTITEL" msprop:Generator_ColumnVarNameInTable="columnCTITEL" msprop:Generator_ColumnPropNameInRow="CTITEL" msprop:Generator_ColumnPropNameInTable="CTITELColumn" msprop:Generator_UserColumnName="CTITEL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTEL" msprop:Generator_ColumnVarNameInTable="columnCTEL" msprop:Generator_ColumnPropNameInRow="CTEL" msprop:Generator_ColumnPropNameInTable="CTELColumn" msprop:Generator_UserColumnName="CTEL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CSTR" msprop:Generator_ColumnVarNameInTable="columnCSTR" msprop:Generator_ColumnPropNameInRow="_CSTR" msprop:Generator_ColumnPropNameInTable="CSTRColumn" msprop:Generator_UserColumnName="CSTR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPLZ" msprop:Generator_ColumnVarNameInTable="columnCPLZ" msprop:Generator_ColumnPropNameInRow="CPLZ" msprop:Generator_ColumnPropNameInTable="CPLZColumn" msprop:Generator_UserColumnName="CPLZ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CORT" msprop:Generator_ColumnVarNameInTable="columnCORT" msprop:Generator_ColumnPropNameInRow="CORT" msprop:Generator_ColumnPropNameInTable="CORTColumn" msprop:Generator_UserColumnName="CORT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CBLAND" msprop:Generator_ColumnVarNameInTable="columnCBLAND" msprop:Generator_ColumnPropNameInRow="CBLAND" msprop:Generator_ColumnPropNameInTable="CBLANDColumn" msprop:Generator_UserColumnName="CBLAND" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLAND" msprop:Generator_ColumnVarNameInTable="columnCLAND" msprop:Generator_ColumnPropNameInRow="CLAND" msprop:Generator_ColumnPropNameInTable="CLANDColumn" msprop:Generator_UserColumnName="CLAND" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CFIRMA2" msprop:Generator_ColumnVarNameInTable="columnCFIRMA2" msprop:Generator_ColumnPropNameInRow="CFIRMA2" msprop:Generator_ColumnPropNameInTable="CFIRMA2Column" msprop:Generator_UserColumnName="CFIRMA2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

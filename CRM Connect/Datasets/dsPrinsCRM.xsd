@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPrinsCRM" targetNamespace="http://tempuri.org/dsPrinsCRM.xsd" xmlns:mstns="http://tempuri.org/dsPrinsCRM.xsd" xmlns="http://tempuri.org/dsPrinsCRM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPrinsCRM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPrinsCRM" msprop:Generator_UserDSName="dsPrinsCRM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTransfers" msprop:Generator_TableClassName="dtTransfersDataTable" msprop:Generator_TableVarName="tabledtTransfers" msprop:Generator_TablePropName="dtTransfers" msprop:Generator_RowDeletingName="dtTransfersRowDeleting" msprop:Generator_RowChangingName="dtTransfersRowChanging" msprop:Generator_RowEvHandlerName="dtTransfersRowChangeEventHandler" msprop:Generator_RowDeletedName="dtTransfersRowDeleted" msprop:Generator_UserTableName="dtTransfers" msprop:Generator_RowChangedName="dtTransfersRowChanged" msprop:Generator_RowEvArgName="dtTransfersRowChangeEvent" msprop:Generator_RowClassName="dtTransfersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" msprop:Generator_UserColumnName="Remark" type="xs:string" minOccurs="0" />
+              <xs:element name="Direction" msprop:Generator_ColumnVarNameInTable="columnDirection" msprop:Generator_ColumnPropNameInRow="Direction" msprop:Generator_ColumnPropNameInTable="DirectionColumn" msprop:Generator_UserColumnName="Direction" type="xs:int" minOccurs="0" />
+              <xs:element name="SourceTable" msprop:Generator_ColumnVarNameInTable="columnSourceTable" msprop:Generator_ColumnPropNameInRow="SourceTable" msprop:Generator_ColumnPropNameInTable="SourceTableColumn" msprop:Generator_UserColumnName="SourceTable" type="xs:string" minOccurs="0" />
+              <xs:element name="TargetTable" msprop:Generator_ColumnVarNameInTable="columnTargetTable" msprop:Generator_ColumnPropNameInRow="TargetTable" msprop:Generator_ColumnPropNameInTable="TargetTableColumn" msprop:Generator_UserColumnName="TargetTable" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedAt" msprop:Generator_ColumnVarNameInTable="columnCreatedAt" msprop:Generator_ColumnPropNameInRow="CreatedAt" msprop:Generator_ColumnPropNameInTable="CreatedAtColumn" msprop:Generator_UserColumnName="CreatedAt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ChangedAt" msprop:Generator_ColumnVarNameInTable="columnChangedAt" msprop:Generator_ColumnPropNameInRow="ChangedAt" msprop:Generator_ColumnPropNameInTable="ChangedAtColumn" msprop:Generator_UserColumnName="ChangedAt" type="xs:string" minOccurs="0" />
+              <xs:element name="LastTransferAt" msprop:Generator_ColumnVarNameInTable="columnLastTransferAt" msprop:Generator_ColumnPropNameInRow="LastTransferAt" msprop:Generator_ColumnPropNameInTable="LastTransferAtColumn" msprop:Generator_UserColumnName="LastTransferAt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LastTransferCount" msprop:Generator_ColumnVarNameInTable="columnLastTransferCount" msprop:Generator_ColumnPropNameInRow="LastTransferCount" msprop:Generator_ColumnPropNameInTable="LastTransferCountColumn" msprop:Generator_UserColumnName="LastTransferCount" type="xs:long" minOccurs="0" />
+              <xs:element name="TotalTransferCount" msprop:Generator_ColumnVarNameInTable="columnTotalTransferCount" msprop:Generator_ColumnPropNameInRow="TotalTransferCount" msprop:Generator_ColumnPropNameInTable="TotalTransferCountColumn" msprop:Generator_UserColumnName="TotalTransferCount" type="xs:long" minOccurs="0" />
+              <xs:element name="TransferEnabled" msprop:Generator_ColumnVarNameInTable="columnTransferEnabled" msprop:Generator_ColumnPropNameInRow="TransferEnabled" msprop:Generator_ColumnPropNameInTable="TransferEnabledColumn" msprop:Generator_UserColumnName="TransferEnabled" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TransferSequence" msprop:Generator_ColumnVarNameInTable="columnTransferSequence" msprop:Generator_ColumnPropNameInRow="TransferSequence" msprop:Generator_ColumnPropNameInTable="TransferSequenceColumn" msprop:Generator_UserColumnName="TransferSequence" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtTransfers" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLog" targetNamespace="http://tempuri.org/dsLog.xsd" xmlns:mstns="http://tempuri.org/dsLog.xsd" xmlns="http://tempuri.org/dsLog.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLog" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsLog" msprop:Generator_UserDSName="dsLog">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBL_LOG" msprop:Generator_TableClassName="TBL_LOGDataTable" msprop:Generator_TableVarName="tableTBL_LOG" msprop:Generator_TablePropName="TBL_LOG" msprop:Generator_RowDeletingName="TBL_LOGRowDeleting" msprop:Generator_RowChangingName="TBL_LOGRowChanging" msprop:Generator_RowEvHandlerName="TBL_LOGRowChangeEventHandler" msprop:Generator_RowDeletedName="TBL_LOGRowDeleted" msprop:Generator_UserTableName="TBL_LOG" msprop:Generator_RowChangedName="TBL_LOGRowChanged" msprop:Generator_RowEvArgName="TBL_LOGRowChangeEvent" msprop:Generator_RowClassName="TBL_LOGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="LOG_TS" msprop:Generator_ColumnVarNameInTable="columnLOG_TS" msprop:Generator_ColumnPropNameInRow="LOG_TS" msprop:Generator_ColumnPropNameInTable="LOG_TSColumn" msprop:Generator_UserColumnName="LOG_TS" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MESSAGE" msprop:Generator_ColumnVarNameInTable="columnMESSAGE" msprop:Generator_ColumnPropNameInRow="MESSAGE" msprop:Generator_ColumnPropNameInTable="MESSAGEColumn" msprop:Generator_UserColumnName="MESSAGE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TBL_LOG" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
